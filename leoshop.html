@@ -1,0 +1,452 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>LEO SHOP</title>
+		<!-- Адаптив -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<!-- Подключаем CSS -->
+        <link rel="stylesheet" type="text/css" href="css/leoshop.css" />
+        <link rel="stylesheet" href="css/leoshopadaptive.css" />
+        <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    	<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="wrapper">
+            <header>
+                <div class="header__top">
+                    <div class="container">
+                        <div class="header__top__body">
+                        
+                        
+                            <div class="header__form">
+                            
+                                <div class="header__form__language">
+                                    <label for="language">Language:</label>
+                                    <select>
+                                        <option>English</option>
+                                        <option>Russian</option>
+                                        <option>Italian</option>
+                                        </select>
+                                </div>
+                                <div class="header__form__currency">
+                                    <label for="currency">Currency:</label>
+                                    <select>
+                                        <option>USD</option>
+                                        <option>Rub</option>
+                                        <option>EUR</option>
+                                        </select>
+                                </div>
+                                
+                        
+                            </div>
+                            
+                                <div class="header__account">
+                                    <div class="header__account__icon"><i class="fas fa-user "></i></div>
+                                <ul class="header__account__list">
+                                    <li><a href="" class="header__account__list__a">Account</a></li>
+                                    <li><a href="" class="header__account__list__a">Wishlist</a></li>
+                                    <li><a href="" class="header__account__list__a">Checkout</a></li>
+                                    <li><a href="" class="header__account__list__a">Log In</a></li>
+                                    <li><a href="" class="header__account__list__a">Sign Up</a></li>
+                                </ul>
+                            </div>    
+            
+                        </div>
+                
+                    </div>
+             </div>
+
+
+                <div class="header__bottom">
+                    <div class="container">
+                    <div class="header__bottom__body">
+                        <div class="header__bottom__logo"><p>Leo shop</p></div>
+                        
+                    
+                        <div class="header__bottom__menu">
+                        <nav>
+                            <ul class="header__bottom__menu__list">
+                                <li><a href="" class="header__bottom__menu__a">Home</a></li>
+                                <li><a href="" class="header__bottom__menu__a">women</a></li>
+                                <li><a href="" class="header__bottom__menu__a">men</a></li>
+                                <li><a href="" class="header__bottom__menu__a">other</a></li>
+                                <li><a href="" class="header__bottom__menu__a">purchase</a></li>
+                            </ul>
+                        </nav>
+                        </div>
+
+                        <div class="header__bottom__right">
+                            
+                            <div >
+                                <form class="headerSearch" action="" method="get">
+                                    <input type="text"  placeholder="Search.."/>
+                                    <button type="submit" class="headerSearchIcon"></button>
+                                </form>
+                            </div>
+                        
+                            <div class="headerIcons">
+                           <button type="submit" class="headerIconsButton"><i class="fas fa-tags "></i></button> 
+                           <button type="submit" class="headerIconsButton"><i class="fas fa-shopping-cart"></i></button> 
+                            
+                            </div>    
+                            <div class="header__bottom__cart">
+                              <p>cart (0)</p>  
+                            </div>
+
+
+                        
+                        </div>
+
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                   </div> 
+                    </div>
+                </div>
+            </header>
+         
+            <div class="content">
+           <section> <div class="slider">
+				<div class="single-item filter">
+                    <img src="img/aslider.png" alt="">
+                    <div class="sliderText">
+                        <p class="tTop">aluminum club</p>
+                        <p class="tBot">experience ray-ban</p>
+                    </div>
+				</div>
+				<div class="single-item">
+					<img src="img/aslider.png" alt="">
+				</div>
+				<div class="single-item filter">
+					<img src="img/aslider.png" alt="">
+				</div>
+				<div class="single-item">
+					<img src="img/aslider.png" alt="">
+				</div>
+            </div>
+            
+           </section>
+          
+
+           <section>
+                  <div class="featuredProducts">
+                   <div class="container featuredGlass">
+                       <div class="featProdCont">
+                       <div class="head"><p>featured products</p></div>
+                       <div class="featuredProductsRow">
+                           <div class="productItem">
+                               <a href=""><img class="productItemImg" src="img/item.png" alt="sunglass"></a>
+                               <img class="productItemNew" src="img/new.png" alt="">
+                                <div class="productItemCaption">
+                                    <div>
+                                        <p class="productItemText">Lorem Ipsum is simply.</p>
+                                        <p class="productItemPrice">$388.00</p>
+                                    </div>
+                                    <button type="submit" class="shoppingBasket"><a href=""><i class="fas fa-shopping-basket"></i></a></button>
+                                </div>
+                           </div>
+                           <div class="productItem">
+                            <a href=""><img class="productItemImg" src="img/item.png" alt="sunglass"></a>
+                             <div class="productItemCaption">
+                                 <div><p class="productItemText">Lorem Ipsum is simply</p>
+                                 <p class="productItemPrice">$388.00</p></div>
+                                 <button type="submit" class="shoppingBasket"><a href=""><i class="fas fa-shopping-basket"></i></a></button>
+                             </div>
+                            </div>
+                            <div class="productItem">
+                            <a href=""><img class="productItemImg" src="img/item.png" alt="sunglass"></a>
+                            <img class="productItemSale" src="img/sale.png" alt="">
+                             <div class="productItemCaption">
+                                 <div><p class="productItemText">Lorem Ipsum is simply</p>
+                                 <p class="productItemPrice"><span class="productItemPriceSale">$460</span>$388.00</p></div>
+                                 <button type="submit" class="shoppingBasket"><a href=""><i class="fas fa-shopping-basket"></i></a></button>
+                             </div>
+                            </div>
+                            <div class="productItem">
+                            <a href=""><img class="productItemImg" src="img/item.png" alt="sunglass"></a>
+                             <div class="productItemCaption">
+                                 <div><p class="productItemText">Lorem Ipsum is simply</p>
+                                 <p class="productItemPrice">$388.00</p></div>
+                                 <button type="submit" class="shoppingBasket"> <a href=""><i class="fas fa-shopping-basket"></i></a></button>
+                             </div>
+                            </div>
+                            <div class="productItem">
+                            <a href=""><img class="productItemImg" src="img/item.png" alt="sunglass"></a>
+                            <img class="productItemNew" src="img/new.png" alt="">
+                             <div class="productItemCaption">
+                                 <div><p class="productItemText">Lorem Ipsum is simply</p>
+                                 <p class="productItemPrice">$388.00</p></div>
+                                 <button type="submit" class="shoppingBasket"><a href=""><i class="fas fa-shopping-basket"></i></a></button>
+                             </div>
+                            </div>
+                            <div class="productItem">
+                            <a href=""><img class="productItemImg" src="img/item.png" alt="sunglass"></a>
+                             <div class="productItemCaption">
+                                 <div><p class="productItemText">Lorem Ipsum is simply</p>
+                                 <p class="productItemPrice">$388.00</p></div>
+                                 <button type="submit" class="shoppingBasket"><a href=""><i class="fas fa-shopping-basket"></i></a></button>
+                             </div>
+                            </div>
+                            <div class="productItem">
+                            <a href=""><img class="productItemImg" src="img/item.png" alt="sunglass"></a>
+                            <img class="productItemNew" src="img/new.png" alt="">
+                             <div class="productItemCaption">
+                                 <div><p class="productItemText">Lorem Ipsum is simply</p>
+                                 <p class="productItemPrice">$388.00</p></div>
+                                 <button type="submit" class="shoppingBasket"><a href=""><i class="fas fa-shopping-basket"></i></a></button>
+                             </div>
+                            </div>
+                            <div class="productItem">
+                            <a href=""><img class="productItemImg" src="img/item.png" alt="sunglass"></a>
+                            <img class="productItemSale" src="img/sale.png" alt="">
+                             <div class="productItemCaption">
+                                 <div><p class="productItemText">Lorem Ipsum is simply</p>
+                                 <p class="productItemPrice"><span class="productItemPriceSale">$460</span>$388.00</p></div>
+                                 <button type="submit" class="shoppingBasket"><a href=""><i class="fas fa-shopping-basket"></i></a></button>
+                             </div>
+                            </div>
+                            <div class="productItem">
+                            <a href=""><img class="productItemImg" src="img/item.png" alt="sunglass"></a>
+                            <img class="productItemNew" src="img/new.png" alt="">
+                             <div class="productItemCaption">
+                                 <div><p class="productItemText">Lorem Ipsum is simply</p>
+                                 <p class="productItemPrice">$388.00</p></div>
+                                <button type="submit" class="shoppingBasket"><a href=""><i class="fas fa-shopping-basket"></i></a></button> 
+                             </div>
+                            </div>
+                     </div>
+                    </div> 
+                    <div class="sidebar">
+                    <div class="sliderRight">
+                        <div class=slidesRight>
+                            <p class="sliderRightHead">featured <br>glass</p>
+                            <!---->
+                            <img class="sliderRightImg" src="img/sliderright.png" alt="girl">
+                            
+                            <button type="submit" class="CheckItOut">Check It Out</button>
+                        </div>
+                        
+                        <div class=slidesRight><img class="sliderRightImg" src="img/sliderright.png" alt="girl"></div>
+                        <div class=slidesRight><img class="sliderRightImg" src="img/sliderright.png" alt="girl"></div>
+
+                    </div>
+                    <div class="rightForm">
+                        <form>
+                            <p class="rightFormHead">newsletters signup</p>
+                            <p class="rightformParagraph">Lorem ipsum dolor sit amen, dolor imun ra adlip</p>
+                            <input type="text" name="" class="rightFormField">
+                            <button type="submit" class="subscribe">Subscribe</button>
+                        </form>
+                    </div>
+                    </div>
+                   </div>
+                </div> 
+         </section>
+           <section>
+            <div class="staffPick">
+                <div class="container">
+                    <div class="staffPickCont">
+                    <div class="head"><p>staff pick</p></div>
+                    <div class="staffPickRow">
+                        <div class="productItem">
+                            <a href=""><img class="productItemImg" src="img/item.png" alt="sunglass"></a>
+                            <img class="productItemNew" src="img/new.png" alt="">
+                             <div class="productItemCaption">
+                                 <div>
+                                     <p class="productItemText">Lorem Ipsum is simply.</p>
+                                     <p class="productItemPrice">$388.00</p>
+                                 </div>
+                                 <button type="submit" class="shoppingBasket"><a href=""><i class="fas fa-shopping-basket"></i></a></button>
+                             </div>
+                        </div> 
+                        <div class="productItem">
+                            <a href=""><img class="productItemImg" src="img/item.png" alt="sunglass"></a>
+                           
+                             <div class="productItemCaption">
+                                 <div>
+                                     <p class="productItemText">Lorem Ipsum is simply.</p>
+                                     <p class="productItemPrice">$388.00</p>
+                                 </div>
+                                 <button type="submit" class="shoppingBasket"><a href=""><i class="fas fa-shopping-basket"></i></a></button>
+                             </div>
+                        </div> 
+                        <div class="productItem">
+                            <a href=""><img class="productItemImg" src="img/item.png" alt="sunglass"></a>
+                            <img class="productItemNew" src="img/new.png" alt="">
+                             <div class="productItemCaption">
+                                 <div>
+                                     <p class="productItemText">Lorem Ipsum is simply.</p>
+                                     <p class="productItemPrice">$388.00</p>
+                                 </div>
+                                 <button type="submit" class="shoppingBasket"><a href=""><i class="fas fa-shopping-basket"></i></a></button>
+                             </div>
+                        </div> 
+
+           
+           </section>
+
+           <section>
+            <div class="newProducts">
+                <div class="container">
+                    <div class="newProductsCont">
+                    <div class="head"><p>new products</p></div>
+                    <div class="newProductsRow">
+                        <div class="productItem">
+                            <a href=""><img class="productItemImg" src="img/item.png" alt="sunglass"></a>
+                            <img class="productItemNew" src="img/new.png" alt="">
+                             <div class="productItemCaption">
+                                 <div>
+                                     <p class="productItemText">Lorem Ipsum is simply.</p>
+                                     <p class="productItemPrice">$388.00</p>
+                                 </div>
+                                 <button type="submit" class="shoppingBasket"><a href=""><i class="fas fa-shopping-basket"></i></a></button>
+                             </div>
+                        </div> 
+                        <div class="productItem">
+                            <a href=""><img class="productItemImg" src="img/item.png" alt="sunglass"></a>
+                            <img class="productItemNew" src="img/new.png" alt="">
+                             <div class="productItemCaption">
+                                 <div>
+                                     <p class="productItemText">Lorem Ipsum is simply.</p>
+                                     <p class="productItemPrice">$388.00</p>
+                                 </div>
+                                 <button type="submit" class="shoppingBasket"><a href=""><i class="fas fa-shopping-basket"></i></a></button>
+                             </div>
+                        </div> 
+                        <div class="productItem">
+                            <a href=""><img class="productItemImg" src="img/item.png" alt="sunglass"></a>
+                            <img class="productItemNew" src="img/new.png" alt="">
+                             <div class="productItemCaption">
+                                 <div>
+                                     <p class="productItemText">Lorem Ipsum is simply.</p>
+                                     <p class="productItemPrice">$388.00</p>
+                                 </div>
+                                 <button type="submit" class="shoppingBasket"><a href=""><i class="fas fa-shopping-basket"></i></a></button>
+                             </div>
+                        </div> 
+
+           
+           </section>
+           <section>
+               <div class="shipping">
+                   <div class="container">
+                       <div class="shippingRow">
+                           <div class="freeShipping">
+                            <i class="fas fa-truck  fa-flip-horizontal"></i>
+                            <p class="shippingText">free shipping on orders over $100</p>
+                           </div>
+                           <div class="callUs">
+                            <i class="fas fa-phone"></i>
+                            <p class="shippingText">call us! toll free 409-8888-0099</p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </section>
+           <section>
+               <div class="social">
+                   <div class="container">
+                       <div class="socialRow">
+                           
+                        <div class="facebook">
+                               <p class="socialHead">facebook</p>
+                               <p class="fbText">20000 Members</p>
+                               <button type="submit" name="facebook" class="buttonFb"><a href=""><img src="img/fbbutton.png" alt=""></a></button>
+                               <div class="fbMembers">
+                                   <div class="fbMembersTop">
+                                       <img src="img/Layer 36.png" alt="">
+                                       <img src="img/Layer 37.png" alt="">
+                                       <img src="img/Layer 38.png" alt="">
+                                       <img src="img/Layer 39.png" alt="">
+                                   </div>
+                                   <div class="fbMembersBottom">
+                                    <img src="img/Layer 36.png" alt="">
+                                    <img src="img/Layer 37.png" alt="">
+                                    <img src="img/Layer 38.png" alt="">
+                                    <img src="img/Layer 39.png" alt="">
+                                   </div>
+                               </div>
+                               <p class="fbTextBottom">facebook Social plugin</p>
+                           </div>
+                           
+                           <div class="twitter">
+                            <p class="socialHead">from twitter</p>
+                            <div class="twTop">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <p class="twText">Lorem Ipsum is simply dummy text of the printing and <span class="twTextSpan">typesetting industry, Lorem ipsum</span>has been the</p>
+                            </div>
+                            <div class="twBottom">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <p class="twText">Lorem Ipsum is simply dummy text of the printing and <span class="twTextSpan">typesetting industry, Lorem ipsum</span>has been the</p>
+                            </div>
+                           </div>
+                           
+                           <div class="information">
+                            <p class="socialHead">information</p>
+                            <ul class="infoList">
+                                <li><a href="">Sed ultrices purus non.</a></li>
+                                <li><a href="">sodales sodales.</a></li>
+                                <li><a href="">Curabitur pretium dui vitae.</a></li>
+                                <li><a href="">Donec gravida mi in nisl</a></li>
+                                <li><a href="">faucibus leo condimentum.</a></li>
+                                <li><a href="">Donec et lorem suscipit</a></li>
+                            </ul>
+                           </div>
+                           
+                           <div class="contact">
+                            <p class="socialHead">contact us</p>
+                            <div class="contacts">
+                                <p>Leo store</p>
+                                <p>Leopards media</p>
+                                <p>KVM Rpad, 4590GH</p>
+                                <p>+1 489-8888-0099</p>
+                                <p>mail@email.com</p>
+                            </div>
+                            <div class="contactsIcon">
+                                <a href=""><i class="fab fa-google-plus-g"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fas fa-rss"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </section>
+
+
+
+                
+		
+			<footer class="footer">
+				<div class='container'>
+					<div class="footerRow">
+                        <div class="footerCopyright"><p>© Copyright 2013 Css Author, All Rights Reserved.</p></div>
+                        <div class="footerMenu">
+                            <ul class="footerMenuList">
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Delivery & Returns</a></li>
+                                <li><a href="">Terms & Conditions</a></li>
+                                <li><a href="">Contact Us</a></li>
+                            </ul>
+                        </div>
+					</div>
+				</div>
+            </footer><!---->
+        </div>
+        </div>
+        
+        <!-- Подключаем jQuery -->
+			<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+			<!-- Подключаем слайдер Slick -->
+			<script src="js/slick.min.js"></script>
+			<!-- Подключаем файл скриптов -->
+            <script src="js/script.js"></script>
+	</body>
+</html>
